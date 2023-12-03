@@ -10,8 +10,8 @@ body {
 }
 
 .logo {
-  color: var(--IRIS, #4d5ae5);
   font-family: Raleway, sans-serif;
+  color: #4d5ae5;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -24,8 +24,8 @@ body {
   text-decoration: none;
 }
 
-.textlogo {
-  color: var(--NAVY-BLUE, #2e2f42);
+.text-logo {
+  color: #2e2f42;
 }
 
 .list {
@@ -33,7 +33,7 @@ body {
 }
 
 .nav-links .link {
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -41,7 +41,7 @@ body {
 }
 
 .nav-contact .link {
-  color: var(--NAVY-BLUE, #434455);
+  color: #434455;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -61,10 +61,15 @@ body {
 
 .first {
   background-color: #2e2f42;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 .first-header {
   text-transform: uppercase;
-  color: var(--WHITE, #fff);
+  color: #fff;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -98,7 +103,7 @@ body {
 }
 
 .textlist {
-  color: var(--SLATE, #434455);
+  color: #434455;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -107,7 +112,7 @@ body {
 
 .third,
 .fourth {
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: #2e2f42;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -118,6 +123,14 @@ body {
 
 .fourth-section {
   background-color: #f4f4fd;
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .list .nav-links {
@@ -125,7 +138,7 @@ body {
 }
 
 .below {
-  background-color: var(--NAVY-BLUE, #2e2f42);
+  background-color: #2e2f42;
 }
 .text-logo {
   color: #f4f4fd;
@@ -138,7 +151,7 @@ body {
 }
 
 .services {
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: #2e2f42;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
