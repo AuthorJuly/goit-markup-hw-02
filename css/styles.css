@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap');
+
 :root {
   --iriscolor: #4d5ae5;
   --navybluecolor: #2e2f42;
@@ -8,15 +10,14 @@
 }
 
 /* Main Page */
-body {
-  font-family: Roboto, sans-serif;
+.first {
   color: #434455;
   background-color: #ffffff;
 }
 
 .logo {
-  font-family: Raleway, sans-serif;
   color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -38,7 +39,7 @@ body {
 }
 
 .nav-links .link {
-  color: #2e2f42;
+  color: var(--mynavyblue-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -65,16 +66,16 @@ body {
 }
 
 .first {
-  background-color: #2e2f42;
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
+  color: var(--navybluecolor);
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 1.5;
   text-align: center;
+  letter-spacing: 0.05em;
 }
 .first-header {
   text-transform: uppercase;
-  color: #fff;
+  color: var(--navybluecolor);
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -83,7 +84,6 @@ body {
 }
 .button {
   background: #4d5ae5;
-  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -104,7 +104,7 @@ body {
   font-weight: 500;
   letter-spacing: 0.02em;
   line-height: 1.2;
-  color: #2e2f42;
+  color: var(--navybluecolor);
 }
 
 .textlist {
@@ -129,7 +129,6 @@ body {
 .fourth-section {
   background-color: #f4f4fd;
   color: #4d5ae5;
-  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -189,14 +188,12 @@ body {
   --mynavyblue-color: #2e2f42;
 }
 body {
-  font-family: 'Roboto', sans-serif;
   color: var(--mytextcolor-color);
   background-color: var(--background-color);
 }
 
 .logo-style {
   color: #4d5ae5;
-  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17em;
@@ -205,7 +202,6 @@ body {
 }
 .inside-logo {
   color: var(--mynavyblue-color);
-  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.5em;
@@ -231,7 +227,6 @@ body {
   background-color: var(--mybackground-color);
 
   /* Body */
-  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -262,7 +257,6 @@ body {
   color: #ffffff;
 
   /* Header 1 */
-  font-family: 'Roboto', sans-serif;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07em;
@@ -276,7 +270,6 @@ body {
   color: #ffffff;
 
   /* Button Text */
-  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5em;
@@ -301,7 +294,6 @@ body {
   color: var(--mynavyblue-color);
 
   /* Header 3 */
-  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2em;
@@ -312,7 +304,6 @@ body {
   color: var(--mytextcolor-color);
 
   /* Body */
-  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5em;
@@ -324,7 +315,6 @@ body {
   color: var(--mynavyblue-color);
 
   /* Header 2 */
-  font-family: 'Roboto', sans-serif;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11em;
@@ -342,7 +332,6 @@ body {
   color: var(--mynavyblue-color);
 
   /* Header 3*/
-  font-family: 'Roboto', sans-serif;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11em;
@@ -358,7 +347,6 @@ body {
   color: #2e2f42;
 
   /* Header 3 */
-  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -370,7 +358,6 @@ body {
   color: #434455;
 
   /* Body */
-  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5em;
@@ -383,7 +370,6 @@ body {
 }
 .logo-style {
   color: #4d5ae5;
-  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17em;
@@ -397,10 +383,12 @@ body {
   text-decoration: none;
 }
 .footer-paragraph {
-  color: #f4f4fd;
+  color: var(white);
+  width: 265px;
+  height: 70px;
+  top: 3300px;
 
   /* Body */
-  font-family: 'Roboto', sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 1.5em;
