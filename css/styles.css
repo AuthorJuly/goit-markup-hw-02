@@ -32,8 +32,8 @@ body {
   text-transform: uppercase;
 }
 
-.text-logo {
-  color: var(--navyblue);
+.textlogo {
+  color: #2e2f42;
 }
 
 .link {
@@ -66,9 +66,12 @@ body {
 .contacts {
   font-style: normal;
 }
-
-.list .link:hover,
-.list .link:focus,
+.link:hover {
+  color: #404bbf;
+}
+.link:focus {
+  color: #404bbf;
+}
 .list .link.studio {
   color: var(--oceanblue);
 }
