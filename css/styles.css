@@ -12,6 +12,12 @@
 }
 
 /* Main Page - Header*/
+body {
+  font-family: Roboto, sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
 .page-header {
   background-color: var(--whitecolor);
   font-family: 'Raleway', sans-serif;
