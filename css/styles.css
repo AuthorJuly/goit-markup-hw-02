@@ -12,31 +12,23 @@
 }
 
 /* Main Page - Header*/
+.page-header {
+  background-color: var(--whitecolor);
+}
+
 .logo {
   color: var(--iriscolor);
-  font-family: 'Raleway', sans-serif;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
 .text-logo {
-  color: var(--navybluecolor);
-  font-family: 'Raleway', sans-serif;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+  color: var(--navyblue);
 }
 
 .link {
   text-decoration: none;
-  color: var(--iriscolor);
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  line-height: 1.5;
 }
 
 .list {
@@ -148,7 +140,20 @@
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
+}
+
+.teamname {
+  color: var(--navyblue);
+  font-weight: 900;
+}
+
+.position {
+  color: var(--slatecolor);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
 }
 
 .list .nav-links {
