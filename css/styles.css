@@ -14,10 +14,16 @@
 /* Main Page - Header*/
 .page-header {
   background-color: var(--whitecolor);
+  font-family: 'Raleway', sans-serif;
 }
 
 .logo {
-  color: var(--iriscolor);
+  color: #4d5ae5;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .text-logo {
