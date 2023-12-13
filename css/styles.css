@@ -7,6 +7,8 @@
   --oceanblue: #2196f3;
   --whitecolor: white;
   --slatecolor: #434455;
+  --cornflowercolor: #e7e9fc;
+  --cloudcolor: #f4f4fd;
 }
 
 /* Main Page - Header*/
@@ -21,10 +23,6 @@
   text-transform: uppercase;
 }
 
-.link {
-  text-decoration: none;
-}
-
 .text-logo {
   color: var(--navybluecolor);
   font-family: 'Raleway', sans-serif;
@@ -34,6 +32,11 @@
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--iriscolor);
 }
 
 .list {
@@ -60,11 +63,10 @@
   font-style: normal;
 }
 
-.link:hover {
-  color: var(--iriscolor);
-}
-.link:focus {
-  color: var(--iriscolor);
+.list .link:hover,
+.list .link:focus,
+.list .link.studio {
+  color: var(--oceanblue);
 }
 
 /* Section 1*/
@@ -103,10 +105,12 @@
 .button:hover {
   background-color: var(--oceanblue);
 }
+
 .button:focus {
-  background-color: var(--oceanblue);
+  color: var(--iriscolor);
 }
 
+/* Section 2*/
 .list-header {
   font-size: 20px;
   font-weight: 500;
@@ -123,6 +127,7 @@
   letter-spacing: 0.02em;
 }
 
+/* Section 3*/
 .third,
 .fourth {
   color: var(--navybluecolor);
@@ -134,6 +139,7 @@
   text-transform: capitalize;
 }
 
+/* Section 4*/
 .fourth-section {
   background-color: var(--whitecolor);
   color: var(--iriscolor);
@@ -149,6 +155,7 @@
   background-color: var(--whitecolor);
 }
 
+/* Section footer*/
 .below {
   background-color: var(--navybluecolor);
 }
