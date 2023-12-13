@@ -9,16 +9,11 @@
   --slatecolor: #434455;
 }
 
-/* Main Page */
-.first {
-  color: #434455;
-  background-color: #ffffff;
-}
-
+/* Main Page - Header*/
 .logo {
-  color: #4d5ae5;
+  color: var(--iriscolor);
   font-family: 'Raleway', sans-serif;
-  font-size: 18px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 800;
   line-height: 1.17;
@@ -31,7 +26,14 @@
 }
 
 .text-logo {
-  color: #2e2f42;
+  color: var(--navybluecolor);
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .list {
@@ -47,7 +49,7 @@
 }
 
 .nav-contact .link {
-  color: #434455;
+  color: var(--slatecolor);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -59,14 +61,20 @@
 }
 
 .link:hover {
-  color: #404bbf;
+  color: var(--iriscolor);
 }
 .link:focus {
-  color: #404bbf;
+  color: var(--iriscolor);
+}
+
+/* Section 1*/
+.first {
+  color: var(--whitecolor);
+  background-color: var(--navybluecolor);
 }
 
 .first {
-  color: var(--navybluecolor);
+  color: var(--whitecolor);
   font-size: 50px;
   font-weight: 800;
   line-height: 1.5;
@@ -83,20 +91,20 @@
   text-align: center;
 }
 .button {
-  background: #4d5ae5;
+  background: var(--iriscolor);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #fff;
+  color: var(--whitecolor);
   cursor: pointer;
 }
 
 .button:hover {
-  background-color: #404bbf;
+  background-color: var(--oceanblue);
 }
 .button:focus {
-  background-color: #404bbf;
+  background-color: var(--oceanblue);
 }
 
 .list-header {
@@ -108,7 +116,7 @@
 }
 
 .textlist {
-  color: #434455;
+  color: var(--slatecolor);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -117,7 +125,7 @@
 
 .third,
 .fourth {
-  color: #2e2f42;
+  color: var(--navybluecolor);
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -127,8 +135,8 @@
 }
 
 .fourth-section {
-  background-color: #f4f4fd;
-  color: #4d5ae5;
+  background-color: var(--whitecolor);
+  color: var(--iriscolor);
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -138,24 +146,24 @@
 }
 
 .list .nav-links {
-  background-color: #fff;
+  background-color: var(--whitecolor);
 }
 
 .below {
-  background-color: #2e2f42;
+  background-color: var(--navybluecolor);
 }
 .text-logo {
-  color: #f4f4fd;
+  color: var(--whitecolor);
 }
 
 .footer-logotext {
   line-height: 1.5;
-  color: #f4f4fd;
+  color: var(--whitecolor);
   letter-spacing: 0.02em;
 }
 
 .services {
-  color: #2e2f42;
+  color: var(--navybluecolor);
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -168,20 +176,21 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background-color: #f4f4fd;
+  color: var(--iriscolor);
+  background-color: var(--whitecolor);
   cursor: pointer;
 }
 
 .btn:hover {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--whitecolor);
+  background-color: var(--oceanblue);
 }
 .btn:focus {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--whitecolor);
+  background-color: var(--oceanblue);
 }
 
+/* Portfolio */
 :root {
   --background-color: #ffffff;
   --mytextcolor-color: #434455;
@@ -326,7 +335,7 @@ body {
 
 /*This is Section 4 */
 .fourth-section {
-  background-color: #f4f4fd;
+  background-color: var(--whitecolor);
 }
 .fourth-section-header {
   color: var(--mynavyblue-color);
@@ -341,7 +350,7 @@ body {
   text-align: center;
 }
 .teammember-bgcolor {
-  background-color: #ffffff;
+  background-color: var(--whitecolor);
 }
 .teammember-name {
   color: #2e2f42;
@@ -355,7 +364,7 @@ body {
   letter-spacing: 0.02em;
 }
 .teammember-position {
-  color: #434455;
+  color: var(--slatecolor);
 
   /* Body */
   font-size: 16px;
@@ -369,14 +378,14 @@ body {
   background-color: var(--mybackground-color);
 }
 .logo-style {
-  color: #4d5ae5;
+  color: var(--iriscolor);
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17em;
   letter-spacing: 0.03em;
 }
 .footerinside-logo-footer {
-  color: #f4f4fd;
+  color: var(--whitecolor);
 }
 
 .link {
