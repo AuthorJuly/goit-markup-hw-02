@@ -78,23 +78,19 @@ body {
 
 /* Section 1*/
 .first {
-  color: var(--whitecolor);
   background-color: var(--navybluecolor);
-  font-size: 50px;
-  font-weight: 800;
-  line-height: 1.5;
-  text-align: center;
-  letter-spacing: 0.05em;
 }
 
 .first-header {
   text-transform: uppercase;
-  color: var(--navybluecolor);
+  color: var(--whitecolor);
   font-size: 56px;
+  font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
 }
+
 .button {
   background-color: var(--iriscolor);
   font-family: 'Roboto', sans-serif;
