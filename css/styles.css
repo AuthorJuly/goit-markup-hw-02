@@ -34,8 +34,7 @@ body {
 }
 
 .textlogo {
-  color: #2e2f42;
-  text-emphasis-color: #f4f4fd;
+  color: #f4f4fd;
 }
 
 .list {
@@ -136,8 +135,7 @@ body {
   background-color: var(--NAVY-BLUE, #2e2f42);
 }
 .textlogo {
-  color: #2e2f42;
-  text-emphasis-color: #f4f4fd;
+  color: #f4f4fd;
 }
 
 .footer-logotext {
