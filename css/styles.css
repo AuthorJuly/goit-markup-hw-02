@@ -131,6 +131,7 @@ body {
 .third,
 .fourth {
   color: var(--navybluecolor);
+  background-color: #f4f4fd;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -141,27 +142,7 @@ body {
 
 /* Section 4*/
 .fourth-section {
-  background-color: var(--whitecolor);
-  color: var(--iriscolor);
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-}
-
-.teamname {
-  color: var(--navyblue);
-  font-weight: 900;
-}
-
-.position {
-  color: var(--slatecolor);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  background-color: #f4f4fd;
 }
 
 .list .nav-links {
@@ -172,7 +153,7 @@ body {
 .below {
   background-color: var(--navybluecolor);
 }
-.textlogo2 {
+.textlogo {
   color: white;
 }
 
