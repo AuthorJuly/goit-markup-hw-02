@@ -13,7 +13,7 @@
 
 /* Main Page - Header*/
 .body {
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
@@ -21,6 +21,10 @@
 .page-header {
   background-color: var(--whitecolor);
   font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
 .logo {
@@ -221,9 +225,14 @@
   --mytextcolor-color: #434455;
   --mynavyblue-color: #2e2f42;
 }
-body {
+.body {
   color: var(--mytextcolor-color);
   background-color: var(--background-color);
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17em;
+  letter-spacing: 0.03em;
 }
 
 .logo-style {
@@ -418,9 +427,6 @@ body {
 }
 .footer-paragraph {
   color: var(white);
-  width: 265px;
-  height: 70px;
-  top: 3300px;
 
   /* Body */
   font-size: 12px;
