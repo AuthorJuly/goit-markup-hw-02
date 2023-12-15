@@ -34,7 +34,7 @@ body {
 }
 
 .textlogo {
-  color: #2e2f42;
+  color: var(--navybluecolor);
 }
 
 .list {
