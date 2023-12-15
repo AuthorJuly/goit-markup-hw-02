@@ -33,7 +33,7 @@ body {
   text-decoration: none;
 }
 
-.textlogo {
+.text-logo {
   color: #2e2f42;
 }
 
@@ -134,7 +134,7 @@ body {
 .below {
   background-color: var(--NAVY-BLUE, #2e2f42);
 }
-.textlogo {
+.text-logo {
   color: #f4f4fd;
 }
 
